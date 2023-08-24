@@ -1,0 +1,32 @@
+h1{
+    color: orangered;
+    background-color: gray;
+    text-decoration: underline;
+    text-align: center;
+
+
+}
+p{
+    color: aqua;
+    font-size: 10px;
+    letter-spacing: 3px;
+    column-count: 3;
+}
+
+ul{
+    border: 2px solid cyan; 
+    border-bottom: dotted;
+}
+li{
+    list-style-type: square;
+}
+
+.error{
+    color:blue;
+}
+
+#ids{
+    color:yellow;
+    border:1px solid green;
+    background-color: lightcoral;
+}
