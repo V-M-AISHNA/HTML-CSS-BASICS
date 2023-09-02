@@ -1,0 +1,54 @@
+*{
+    font-family: verdana;
+    margin: 0;
+}
+
+body{
+    background-color: #eee;
+}
+
+.wrapper{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;  
+}
+
+.flex-container{
+    display: flex;
+    background: #fff;
+    flex-wrap: wrap;
+    flex-flow: row;
+    height: 600px;
+    justify-content: center;
+    /* align-items: center; */
+    
+
+}
+
+.box{
+    height: 100px ;
+    /* width: 320px; */
+    flex-grow: 1;
+    
+}
+
+.one{
+    background: red;
+    /* flex-grow: 1; */
+    /* flex-shrink: 1; */ 
+    flex-basis: 200px;
+}  
+
+.two{
+    background: blue;
+    /* flex-grow: 2; */
+    /* flex-shrink: 2; */
+    flex-basis: 300px;
+}
+
+.three{
+    background: green;
+    /* flex-grow: 3  ; */
+    /* flex-shrink: 3; */
+    flex-basis: 400px;
+} 
